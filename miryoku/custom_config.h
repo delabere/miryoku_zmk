@@ -76,13 +76,13 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp 
 
 / {
     macros {
-        term: term {
+        zed_em_kay: zed_em_kay {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_tap &kp F6>
-                , <&macro_release &kp LGUI>
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
                 ;
         };
     };
