@@ -76,13 +76,12 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp 
 
 / {
     macros {
-        app_launch: app_launch {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
+        term: term {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LGUI>
-                , <&macro_param_1to1>
-                , <&macro_tap &kp MACRO_PLACEHOLDER>
+                , <&macro_tap &kp F6>
                 , <&macro_release &kp LGUI>
                 ;
         };
@@ -90,7 +89,7 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp 
 };
 
 #define MIRYOKU_LAYER_APP \
-&kp Q,             &kp W,             &kp E,             &kp R,             &app_launch T,     &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp Q,             &kp W,             &kp E,             &kp R,             &term,    &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 U_MT(LCTRL, A),    U_MT(LALT, S),     U_MT(LGUI, D),     U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LGUI, K),     U_MT(LALT, L),     U_MT(LCTRL, SQT),   \
 U_MT(LSHFT, Z),    U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_MT(LSHFT, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, GRAVE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET), U_LT(U_NUM, SPACE), U_LT(U_FUN, BSPC), U_NP,              U_NP
