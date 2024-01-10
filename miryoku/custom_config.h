@@ -40,7 +40,6 @@ MIRYOKU_X(APP,    "App")
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp Z &kp M &kp K>
                 , <&macro_release &kp LSHFT>
                 ;
         };
