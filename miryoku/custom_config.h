@@ -50,7 +50,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_LAYER_APP \
+#define MIRYOKU_LAYER_BUTTON \
 &kp Q,             &kp LG(F10),       &kp E,             &kp R,             &kp LG(F6),        &kp Y,             &kp U,             &kp LG(F3),        &kp O,             &kp P,             \
 U_MT(LCTRL, A),    &kp LG(F1),        U_MT(LGUI, D),     U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LGUI, K),     U_MT(LALT, L),     U_MT(LCTRL, SQT),   \
 U_MT(LSHFT, Z),    U_MT(RALT, X),     &kp LG(F2),        &kp V,             &kp B,             &kp N,             &kp LG(F9),        &kp COMMA,         U_MT(RALT, DOT),   U_MT(LSHFT, SLASH),\
