@@ -15,13 +15,13 @@ U_MT(LSHFT, Z),    U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),&sk LSHFT,         U_LT(U_NAV, TAB),  U_LT(U_SYM, RET), U_LT(U_NUM, SPACE), U_LT(U_FUN, BSPC), U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
-&kp EXCL,          &kp AT,            &kp HASH,          &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp AMPS,          &kp ASTRK,         &kp MINUS,         &kp PLUS,          \
+&kp EXCL,          &kp AT,            &kp NUHS,          &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp AMPS,          &kp ASTRK,         &kp MINUS,         &kp PLUS,          \
 &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            &kp N6,            U_MT(LSHFT, N7),   U_MT(LGUI, N8),    U_MT(LALT, N9),    U_MT(LCTRL, N0),   \
 U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              U_NA,              U_NP,              U_NP,              U_NP,              U_NA,              \
 U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp TILDE,         U_NA,              U_NA,              U_NA,              U_NA,              &kp PIPE,          &kp LPAR,          &kp RPAR,          &kp UNDER,         &kp EQUAL,            \
+&kp TILDE,         U_NA,              &kp HASH,          U_NA,              U_NA,              &kp PIPE,          &kp LPAR,          &kp RPAR,          &kp UNDER,         &kp EQUAL,            \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp COLON,         &kp LBRC,          &kp RBRC,          U_NA,              &kp GRAVE,                 \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp SEMI,          &kp LBKT,          &kp RBKT,          U_NA,              &kp BSLH,              \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP
